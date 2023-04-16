@@ -6,7 +6,8 @@ export default function WeatherIcon(props) {
     <img
       src={`http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${props.code}.png`}
       alt={props.alt}
-      size={props.size}
+      width={props.width}
+      height={props.height}
     />
   );
 }

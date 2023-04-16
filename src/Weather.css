@@ -32,8 +32,8 @@
   list-style: none;
 }
 .Weather img {
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   margin-right: 10px;
   display: block;
   float: left;
@@ -41,7 +41,7 @@
 .Weather .temperature {
   color: #646464;
   font-size: 40px;
-  line-height: 70px;
+  line-height: 100px;
 }
 .Weather .unit {
   color: rgb(33, 33, 33);
