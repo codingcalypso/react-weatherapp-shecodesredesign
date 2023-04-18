@@ -19,7 +19,6 @@ export default function WeatherInfo(props) {
               src={props.data.iconUrl}
               alt="{weatherData.description}"
               className="float-left"
-              size={52}
             />
             <div className="float-left">
               <WeatherTemperature celsius={props.data.temperature} />
