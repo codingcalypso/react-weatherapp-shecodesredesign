@@ -35,8 +35,8 @@
   list-style: none;
 }
 .Weather img {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   box-shadow: 14px 14px 17px 2px rgba(0, 0, 0, 0.1);
   border-radius: 40px;
 }
