@@ -11,7 +11,7 @@ export default function WeatherForecast(props) {
   // set loaded to false (code below)
   // use useEffect & change [input] to when coordinates are changing "props.coordinates"
   // this is needed because the 5-day forecast didnt change coordinates depending on city searched
-  
+
   useEffect(() => {
     setLoaded(false);
   }, [props.coordinates]);
@@ -33,6 +33,8 @@ export default function WeatherForecast(props) {
                   <WeatherForecastDay data={dailyForecast} />
                 </div>
               );
+            } else {
+              return <></>;
             }
           })}
         </div>
