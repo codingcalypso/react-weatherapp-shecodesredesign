@@ -3,6 +3,7 @@
   padding-top: 20px;
 }
 .WeatherForecast-temperature-min {
-  opacity: 0.6;
+  opacity: 0.5;
   margin-left: 10px;
+  color: #06a7c0;
 }

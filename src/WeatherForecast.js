@@ -21,7 +21,15 @@ export default function WeatherForecast(props) {
     setLoaded(true);
   }
 
-  console.log({ forecast });
+  function load() {
+    let apiKey = "37a2a46b333cct4ffebf207fd51o0167";
+    let latitude = props.coordinates.latitude;
+    let longitude = props.coordinates.longitude;
+    let apiURL = `https://api.shecodes.io/weather/v1/forecast?lat=${latitude}&lon=${longitude}&key=${apiKey}&units=metric`;
+
+    axios.get(apiURL).then(handleResponse);
+  }
+
   if (loaded) {
     return (
       <div className="WeatherForecast">
@@ -41,12 +49,7 @@ export default function WeatherForecast(props) {
       </div>
     );
   } else {
-    let apiKey = "37a2a46b333cct4ffebf207fd51o0167";
-    let latitude = props.coordinates.latitude;
-    let longitude = props.coordinates.longitude;
-    let apiURL = `https://api.shecodes.io/weather/v1/forecast?lat=${latitude}&lon=${longitude}&key=${apiKey}&units=metric`;
-
-    axios.get(apiURL).then(handleResponse);
+    load();
 
     return null;
   }

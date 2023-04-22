@@ -4,8 +4,8 @@
 }
 .Weather {
   background-color: #f9f9f9;
-  border-bottom: 15px solid #645fce;
-  border-top: 55px solid #645fce;
+  border-bottom: 15px solid #cacaca;
+  border-top: 15px solid #cacaca;
   border-radius: 10px;
   font-family: "Comfortaa", cursive, Arial, sans-serif;
   color: #838383;
@@ -21,7 +21,7 @@
 }
 
 .Weather h1 {
-  color: #06a7c0;
+  color: #6062ce;
   font-size: 45px;
   font-weight: 100;
   line-height: 29px;

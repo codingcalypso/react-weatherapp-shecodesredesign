@@ -14,7 +14,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Cristal 💖
+            Cristal
           </a>{" "}
           and is{" "}
           <a
