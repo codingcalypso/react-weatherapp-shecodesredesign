@@ -1,12 +1,13 @@
 .icon-bg {
   width: 120px !important;
   height: 120px !important;
+  border-radius: 560px !important;
 }
 .Weather {
   background-color: #f9f9f9;
   border-bottom: 15px solid #cacaca;
   border-top: 15px solid #cacaca;
-  border-radius: 10px;
+  border-radius: S10px;
   font-family: "Comfortaa", cursive, Arial, sans-serif;
   color: #838383;
   padding: 30px;
